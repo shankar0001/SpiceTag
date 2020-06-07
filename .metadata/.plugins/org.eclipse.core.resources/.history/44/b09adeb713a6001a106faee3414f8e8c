@@ -1,0 +1,5 @@
+package com.spicetag.qa.base;
+
+public class TestBase {
+
+}

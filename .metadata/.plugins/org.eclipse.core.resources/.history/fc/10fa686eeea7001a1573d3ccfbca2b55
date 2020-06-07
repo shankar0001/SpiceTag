@@ -1,0 +1,7 @@
+package com.spicetag.qa.util;
+
+public class TestUtil {
+
+	static long PAGE_LOAD_TIME_OUT = 20;
+	static long IMPLICIT_WAIT = 10;
+}

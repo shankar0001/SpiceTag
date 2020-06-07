@@ -1,0 +1,21 @@
+package com.spicetag.qa.testcases;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.spicetag.qa.base.TestBase;
+import com.spicetag.qa.pages.LoginPage;
+
+public class LoginPageTest extends TestBase {
+  LoginPage loginpage;
+	
+	 public LoginPageTest() {
+		
+		super();
+	}
+	@BeforeMethod
+	public void setup() {
+		initialization();
+		loginpage = new LoginPage();
+		
+	}
+}

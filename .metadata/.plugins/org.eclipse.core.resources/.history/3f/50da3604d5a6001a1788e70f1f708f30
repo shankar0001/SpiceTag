@@ -1,0 +1,50 @@
+package com.spicetag.qa.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.spicetag.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+
+	
+	//Pagefactory --Object Repo
+	
+	@FindBy(xpath= "//input[@placeholder=\"User ID\"]")
+	WebElement username;
+	
+	@FindBy(xpath = "//input[@placeholder=\"Password\"]")
+	WebElement password;
+	
+	@FindBy(xpath = "//button[@type=\"submit\"]")
+	WebElement loginbttn;
+	
+	
+	@FindBy(xpath = "(//IMG[@_ngcontent-c16=''])[1]")
+	WebElement spicetaglogo;
+	
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+
+	}
+	
+	public String validateloginpagetitle() {
+		return driver.getTitle();
+		}
+	
+	public boolean validateSpicetagImage() {
+		return spicetaglogo.isDisplayed();
+		}
+	
+	public Dashborard login(String un , String pwd) {
+		username.sendKeys(un);
+		password.sendKeys(pwd);
+		loginbttn.click();
+		
+		return new Dashborard();
+		
+	}
+
+
+}

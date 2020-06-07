@@ -1,0 +1,47 @@
+package com.spicetag.qa.testcases;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.spicetag.qa.base.TestBase;
+import com.spicetag.qa.pages.Dashborard;
+import com.spicetag.qa.pages.LoginPage;
+
+public class LoginPageTest extends TestBase {
+  LoginPage loginpage;
+  Dashborard dashboard;	
+	 public LoginPageTest() {
+		
+		super();
+	}
+	@BeforeMethod
+	public void setup() {
+		initialization();
+		loginpage = new LoginPage();
+		
+	}
+	
+	@Test
+	public void LoginPageTitleValidate() {
+		String title = loginpage.validateloginpagetitle();
+		Assert.assertEquals(title, "SpiceTag");
+		}
+	
+	@Test
+	public void spicetaglogo() {
+		boolean flag = loginpage.validateSpicetagImage();
+		Assert.assertTrue(flag);
+	}
+	
+	@Test
+	public void logintest() {
+	dashboard =	loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+	}
+	
+	@AfterMethod
+	public void TearDown() {
+		driver.quit();
+	}
+}

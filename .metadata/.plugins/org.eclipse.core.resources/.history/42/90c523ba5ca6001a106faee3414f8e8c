@@ -1,0 +1,5 @@
+package com.spicetag.qa.util;
+
+public class TestUtil {
+
+}
