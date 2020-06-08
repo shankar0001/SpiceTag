@@ -47,8 +47,7 @@ public class TestBase
 		if(browserName.equals("chrome"))
 		{
 			 
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--no-sandbox");
+
 		        System.setProperty("webdriver.chrome.driver", "/home/aeologic/Downloads/chromedriver");	
 			driver = new ChromeDriver(); 
 			
