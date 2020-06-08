@@ -46,9 +46,12 @@ public class TestBase
 
 		if(browserName.equals("chrome"))
 		{
-			 
-
-		        System.setProperty("webdriver.chrome.driver", "/home/aeologic/Downloads/chromedriver");	
+			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");	
+			ChromeOptions opt = new ChromeOptions();
+			opt.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");  //chrome binary location specified here
+			opt.addArguments("start-maximized");
+			opt.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			opt.setExperimentalOption("useAutomationExtension", false);
 			driver = new ChromeDriver(); 
 			
 	      

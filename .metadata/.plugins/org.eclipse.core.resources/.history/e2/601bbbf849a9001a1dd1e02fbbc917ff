@@ -48,7 +48,7 @@ public class TestBase
 		{
 			 
 
-		        System.setProperty("webdriver.chrome.driver", "/home/aeologic/Downloads/chromedriver");	
+		        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");	
 			driver = new ChromeDriver(); 
 			
 	      
