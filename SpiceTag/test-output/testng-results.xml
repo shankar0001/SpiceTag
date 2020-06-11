@@ -2,44 +2,44 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-08T01:35:46Z" name="Default suite" finished-at="2020-06-08T01:35:58Z" duration-ms="12350">
+  <suite started-at="2020-06-08T08:19:37Z" name="Default suite" finished-at="2020-06-08T08:19:53Z" duration-ms="16120">
     <groups>
     </groups>
-    <test started-at="2020-06-08T01:35:46Z" name="Default test" finished-at="2020-06-08T01:35:58Z" duration-ms="12350">
+    <test started-at="2020-06-08T08:19:37Z" name="Default test" finished-at="2020-06-08T08:19:53Z" duration-ms="16120">
       <class name="com.spicetag.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:46Z" name="setup" finished-at="2020-06-08T07:05:51Z" duration-ms="4910" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:37Z" name="setup" finished-at="2020-06-08T13:49:43Z" duration-ms="5549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginPageTitleValidate()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:51Z" name="LoginPageTitleValidate" finished-at="2020-06-08T07:05:51Z" duration-ms="33" status="PASS">
+        <test-method signature="LoginPageTitleValidate()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:43Z" name="LoginPageTitleValidate" finished-at="2020-06-08T13:49:43Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleValidate -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:51Z" name="TearDown" finished-at="2020-06-08T07:05:51Z" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:43Z" name="TearDown" finished-at="2020-06-08T13:49:43Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:51Z" name="setup" finished-at="2020-06-08T07:05:54Z" duration-ms="3563" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:43Z" name="setup" finished-at="2020-06-08T13:49:47Z" duration-ms="3777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="spicetaglogo()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:54Z" name="spicetaglogo" finished-at="2020-06-08T07:05:54Z" duration-ms="84" status="PASS">
+        <test-method signature="spicetaglogo()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:47Z" name="spicetaglogo" finished-at="2020-06-08T13:49:47Z" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spicetaglogo -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:54Z" name="TearDown" finished-at="2020-06-08T07:05:55Z" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:47Z" name="TearDown" finished-at="2020-06-08T13:49:47Z" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:55Z" name="setup" finished-at="2020-06-08T07:05:58Z" duration-ms="2995" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:47Z" name="setup" finished-at="2020-06-08T13:49:52Z" duration-ms="5529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:58Z" name="logintest" finished-at="2020-06-08T07:05:58Z" duration-ms="509" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:52Z" name="logintest" finished-at="2020-06-08T13:49:53Z" duration-ms="738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T07:05:58Z" name="TearDown" finished-at="2020-06-08T07:05:58Z" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.spicetag.qa.testcases.LoginPageTest@27f981c6]" started-at="2020-06-08T13:49:53Z" name="TearDown" finished-at="2020-06-08T13:49:53Z" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

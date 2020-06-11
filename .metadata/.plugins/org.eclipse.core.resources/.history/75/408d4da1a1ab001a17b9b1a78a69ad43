@@ -49,9 +49,7 @@ public class TestBase
 			 
 			
 		        System.setProperty("webdriver.chrome.driver", "/home/aeologic/Downloads/chromedriver");	
-		        ChromeOptions options = new ChromeOptions();
-		        options.setExperimentalOption("useAutomationExtension", false);
-			driver = new ChromeDriver(options); 
+			driver = new ChromeDriver(); 
 			
 	      
 		}
